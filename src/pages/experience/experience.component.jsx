@@ -1,10 +1,19 @@
 import React from "react";
+import Typewriter from "typewriter-effect";
 import Container from "react-bootstrap/Container";
 import Jumbotron from "react-bootstrap/Jumbotron";
 import Card from "react-bootstrap/Card";
-import L_ACCENTURE from "../../assets/img/experience/accenture-3.svg";
+import INFOD_LOGO from "../../assets/img/experience/logo.svg";
+import ZLOGO from "../../assets/img/experience/profile.svg";
 import Tilt from "react-tilt";
 import "./experience.styles.css";
+
+import LOGO1 from "../../assets/img/designs/logo/slide2.png";
+import LOGO2 from "../../assets/img/designs/logo/slide3.webp";
+import LOGO3 from "../../assets/img/designs/logo/slide4.webp";
+import LOGO4 from "../../assets/img/designs/logo/slide5.webp";
+import LOGO5 from "../../assets/img/designs/logo/slide6.webp";
+import LOGO6 from "../../assets/img/designs/logo/slide7.webp";
 
 const Experience = () => {
   return (
@@ -12,41 +21,76 @@ const Experience = () => {
       <h1 className="pt-3 text-center font-details-b pb-3">EXPERIENCE</h1>
       <Jumbotron className="jumbo-style">
         <Container>
-          <Tilt options={{ max: 25 }}>
+          <Tilt
+            options={{
+              max: 25,
+            }}
+          >
             <Card>
-              <Card.Header as="h5" className="d-flex justify-content-center flex-wrap">
-                <Card.Img variant="top" className="img-resize" src={L_ACCENTURE} alt="Accenture logo" />
+              <Card.Header
+                as="h5"
+                className="d-flex justify-content-center flex-wrap"
+              >
+                <Card.Img
+                  variant="top"
+                  className="img-resize"
+                  src={ZLOGO}
+                  alt="my photo"
+                />
+                <Card.Img
+                  variant="top"
+                  className="img-resize"
+                  src={INFOD_LOGO}
+                  alt="infoD logo"
+                />
               </Card.Header>
               <Card.Body className="d-flex justify-content-center flex-column">
                 <div>
-                  <Card.Title className="text-center">Associate Software Engineer</Card.Title>
+                  <Card.Title className="text-center">
+                    <div className="sub">
+                      <Typewriter
+                        options={{
+                          strings: [
+                            "PROJECT MANAGER AT MEDI@TECH, ABIDJAN",
+                            "ASSISTANT WEB ADMINISTRATOR, ReCAS ICT SUPORT TEAM",
+                            "RESEARCH & ADMINISTRATIVE ASSISTANT, ReCAS",
+                          ],
+                          autoStart: true,
+                          loop: true,
+                          delay: 50,
+                        }}
+                      />
+                    </div>
+                  </Card.Title>
                 </div>
                 <div>
-                  <Card.Text className="text-center style">
-                    <strong className="body-title-style ">Full Stack Developer</strong>
-                    <br />
-                    <strong>Technology:</strong> React JS, DOTNET, C#, MS-SQL, Python
-                    <br />
-                    <strong>Duration:</strong> June 2019 - Present
-                    <br/>
-                    <strong> Description </strong>
-                    <ul className="text-left">
-                      <li><strong>Developed &amp; enhanced</strong> multiple features with customizability option across web application.</li>
-                      <li><strong>Developed</strong> automation system to create SQL bulk query scripts that 
-                        increased efficiency by 80% and decreased working hours from 4 hours to 30 mins per task.
-                      </li>
-                      <li><strong>Provided</strong> application maintenance while working as `Production Support`. 
-                      </li>
-                      <li><strong>Performed</strong> CRUD operations on multiple databases to load/ remove data according 
-                      to the business requirements.</li>
-                      {/* <li><strong>Co-created</strong> React Document used as a guide for new developers.</li> */}
-
-                    </ul>
-                    
-                    
-                  </Card.Text>
+                  <Card.Text className="text-center style"></Card.Text>
                 </div>
               </Card.Body>
+              <Card.Footer>
+                <div className="logodiv">
+                  <div className="m-2 plogo">
+                    <img src={LOGO1} alt="Pacific logo" />
+                  </div>
+                  <div className="m-2 plogo">
+                    <img src={LOGO2} alt="Pacific logo" />
+                  </div>
+                  <div className="m-2 plogo">
+                    <img src={LOGO3} alt="Pacific logo" />
+                  </div>
+                </div>
+                <div className="logodiv">
+                  <div className="m-2 plogo">
+                    <img src={LOGO4} alt="Pacific logo" />
+                  </div>
+                  <div className="m-2 plogo">
+                    <img src={LOGO5} alt="Pacific logo" />
+                  </div>
+                  <div className="m-2 plogo">
+                    <img src={LOGO6} alt="Pacific logo" />
+                  </div>
+                </div>
+              </Card.Footer>
             </Card>
           </Tilt>
         </Container>

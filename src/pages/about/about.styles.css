@@ -3,10 +3,15 @@
   font-size: 1.1em;
 }
 
+.about-me {
+  color: #66fcf1 !important;
+}
+
 .profile {
   max-width: 18em;
 }
 
 .my-details {
-  background-color: rgba(255, 255, 255, 0.747);
+  color: #ccc;
+  /* background-color: rgba(255, 255, 255, 0.747); */
 }

@@ -19,3 +19,12 @@
 .image-style1 {
   width: 3em;
 }
+
+.pcustom-img {
+  height: 60vh;
+  object-fit: cover;
+}
+.cpcustom-img {
+  height: 30vh;
+  object-fit: cover;
+}

@@ -14,7 +14,9 @@ const About = () => {
     <div id="about">
       <div className="about">
         <Zoom top cascade>
-          <h1 className="pt-3 text-center font-details pb-3">ABOUT ME</h1>
+          <h1 className="pt-3 text-center font-details pb-3 about-me">
+            ABOUT ME
+          </h1>
         </Zoom>
         <Container>
           <Row className="pt-3 pb-5 align-items-center">

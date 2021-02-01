@@ -9,7 +9,7 @@ const MyTitleMessage = styled.h1`
   width: 100%;
   top: 22rem;
   z-index: 1;
-  margin-top: -125px;
+  margin-top: -25px;
   text-align: center;
 
   strong {

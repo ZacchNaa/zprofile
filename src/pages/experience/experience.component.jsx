@@ -78,8 +78,8 @@ const Experience = () => {
                   <div className="m-2 plogo">
                     <img src={LOGO3} alt="Pacific logo" />
                   </div>
-                </div>
-                <div className="logodiv">
+                  {/* </div>
+                <div className="logodiv"> */}
                   <div className="m-2 plogo">
                     <img src={LOGO4} alt="Pacific logo" />
                   </div>

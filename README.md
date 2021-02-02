@@ -1,9 +1,3 @@
-My portfolio using React.js , Node.js and React-Bootstrap
-
-![ScreenShot](src/assets/img/readmepreview/preview.jpg)
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
 ## Available Scripts
 
 In the project directory, you can run:

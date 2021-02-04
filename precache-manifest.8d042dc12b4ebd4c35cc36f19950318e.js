@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "4571f0dc95766864a63224ab90509359",
+    "revision": "4d564cc0fe53ba7bdcd22392624d8f05",
     "url": "/zprofile/index.html"
   },
   {
-    "revision": "ee9f37ac34f8f1a22750",
+    "revision": "101acc380315a9aa71e2",
     "url": "/zprofile/static/css/main.ca4a2adc.chunk.css"
   },
   {
-    "revision": "db29424e414013fc4b8b",
-    "url": "/zprofile/static/js/2.43d2c0b7.chunk.js"
+    "revision": "04af9bf204a49c483ce8",
+    "url": "/zprofile/static/js/2.39b9da3f.chunk.js"
   },
   {
     "revision": "176c1a1a28b19c611d9701905d8d60b7",
-    "url": "/zprofile/static/js/2.43d2c0b7.chunk.js.LICENSE.txt"
+    "url": "/zprofile/static/js/2.39b9da3f.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "ee9f37ac34f8f1a22750",
-    "url": "/zprofile/static/js/main.a5662cda.chunk.js"
+    "revision": "101acc380315a9aa71e2",
+    "url": "/zprofile/static/js/main.a3dcc13d.chunk.js"
   },
   {
     "revision": "de8c5221fdf5cf06bef3",
@@ -64,24 +64,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/zprofile/static/media/css3.3707da3c.svg"
   },
   {
-    "revision": "add239172d50d6ad18d2ac3cea6257a1",
-    "url": "/zprofile/static/media/digital-ocean.add23917.svg"
-  },
-  {
-    "revision": "bcf22073c9f13bab1761b90bce9fec55",
-    "url": "/zprofile/static/media/django.bcf22073.svg"
-  },
-  {
     "revision": "c6bab64b183f96aa47077fd3db37afd0",
     "url": "/zprofile/static/media/express.c6bab64b.svg"
   },
   {
     "revision": "1190a19ce3cc940741a60137a1e074cb",
     "url": "/zprofile/static/media/git-icon.1190a19c.svg"
-  },
-  {
-    "revision": "0555bfb7e81f57a1efe6a53c7490abb7",
-    "url": "/zprofile/static/media/github-api.0555bfb7.svg"
   },
   {
     "revision": "0ff1a6f08182be4aa63a0b54da1b9e57",
@@ -126,10 +114,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "a123152868245dee71c441124a98ac3e",
     "url": "/zprofile/static/media/nodejs.a1231528.svg"
-  },
-  {
-    "revision": "d7c985e7cca077dc2d77f89a66573e35",
-    "url": "/zprofile/static/media/postgresql.d7c985e7.svg"
   },
   {
     "revision": "40aba4a4c3ed473ed7f0e4abc61665a1",

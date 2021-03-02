@@ -21,15 +21,14 @@ const MyTitleMessage = styled.h1`
     text-shadow: 0px 2px 5px rgba(0, 0, 0, 0.4);
     font-weight: 100;
     letter-spacing: 7px;
+  }
+  .main {
+    font-size: 50px;
+  }
 
-    .main {
-      font-size: 50px;
-    }
-
-    .sub {
-      font-size: 27px;
-      letter-spacing: 2px;
-    }
+  .sub {
+    font-size: 27px;
+    letter-spacing: 2px;
   }
 `;
 

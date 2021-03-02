@@ -47,7 +47,11 @@ const ContactForm = () => {
               </a>
             </div>
             <div className="m-2">
-              <a href="#" target="_blank" rel="noopener noreferrer">
+              <a
+                href="https://web.facebook.com/Info-Designs-100314405163442/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <Button
                   id="youtube-btn"
                   variant="outline-info"
@@ -58,14 +62,22 @@ const ContactForm = () => {
               </a>
             </div>
             <div className="m-2">
-              <a href="#" target="_blank" rel="noopener noreferrer">
+              <a
+                href="https://web.facebook.com/Info-Designs-100314405163442/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <Button variant="outline-info" title="Tweets are welcomed!">
                   <i className="fab fa-twitter"></i> Twitter
                 </Button>
               </a>
             </div>
             <div className="m-2">
-              <a href="#" target="_blank" rel="noopener noreferrer">
+              <a
+                href="https://web.facebook.com/Info-Designs-100314405163442/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <Button variant="outline-primary" title="Say hello on FB">
                   <i className="fab fa-facebook-square"></i> FaceBook
                 </Button>

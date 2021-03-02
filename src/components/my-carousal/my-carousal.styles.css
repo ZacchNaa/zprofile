@@ -2,3 +2,9 @@
   height: 120vh;
   object-fit: cover;
 }
+
+/* image responsive */
+/* .image-className {
+  width: 100%;
+  height: auto;
+} */

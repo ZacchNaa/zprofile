@@ -6,6 +6,8 @@ import Card from "react-bootstrap/Card";
 import INFOD_LOGO from "../../assets/img/experience/logo.svg";
 import ZLOGO from "../../assets/img/experience/profile.svg";
 import Tilt from "react-tilt";
+import { makeStyles } from "@material-ui/core/styles";
+import { Grid, Paper } from "@material-ui/core";
 import "./experience.styles.css";
 
 import LOGO1 from "../../assets/img/designs/logo/slide2.png";
@@ -16,6 +18,16 @@ import LOGO5 from "../../assets/img/designs/logo/slide6.webp";
 import LOGO6 from "../../assets/img/designs/logo/slide7.webp";
 
 const Experience = () => {
+  const useStyles = makeStyles((theme) => ({
+    grid: {
+      width: "100%",
+    },
+    paper: {
+      padding: theme.spacing(2),
+    },
+  }));
+
+  const classes = useStyles();
   return (
     <div id="experience">
       <h1 className="pt-3 text-center font-details-b pb-3">EXPERIENCE</h1>
@@ -68,28 +80,52 @@ const Experience = () => {
                 </div>
               </Card.Body>
               <Card.Footer>
-                <div className="logodiv">
-                  <div className="m-2 plogo">
-                    <img src={LOGO1} alt="Pacific logo" />
-                  </div>
-                  <div className="m-2 plogo">
-                    <img src={LOGO2} alt="Pacific logo" />
-                  </div>
-                  <div className="m-2 plogo">
-                    <img src={LOGO3} alt="Pacific logo" />
-                  </div>
-                  {/* </div>
-                <div className="logodiv"> */}
-                  <div className="m-2 plogo">
-                    <img src={LOGO4} alt="Pacific logo" />
-                  </div>
-                  <div className="m-2 plogo">
-                    <img src={LOGO5} alt="Pacific logo" />
-                  </div>
-                  <div className="m-2 plogo">
-                    <img src={LOGO6} alt="Pacific logo" />
-                  </div>
-                </div>
+                <Grid container spacing={2} className={classes.grid}>
+                  <Grid item xs={12} md={4}>
+                    <Paper className={classes.paper}>
+                      <div className="m-2 plogo">
+                        <img src={LOGO1} alt="Pacific logo" />
+                      </div>
+                    </Paper>
+                  </Grid>
+                  <Grid item xs={12} md={4}>
+                    <Paper className={classes.paper}>
+                      <div className="m-2 plogo">
+                        <img src={LOGO2} alt="Pacific logo" />
+                      </div>
+                    </Paper>
+                  </Grid>
+                  <Grid item xs={12} md={4}>
+                    <Paper className={classes.paper}>
+                      <div className="m-2 plogo">
+                        <img src={LOGO3} alt="Pacific logo" />
+                      </div>
+                    </Paper>
+                  </Grid>
+                </Grid>
+                <Grid container spacing={2} className={classes.grid}>
+                  <Grid item xs={12} md={4}>
+                    <Paper className={classes.paper}>
+                      <div className="m-2 plogo">
+                        <img src={LOGO4} alt="Pacific logo" />
+                      </div>
+                    </Paper>
+                  </Grid>
+                  <Grid item xs={12} md={4}>
+                    <Paper className={classes.paper}>
+                      <div className="m-2 plogo">
+                        <img src={LOGO5} alt="Pacific logo" />
+                      </div>
+                    </Paper>
+                  </Grid>
+                  <Grid item xs={12} md={4}>
+                    <Paper className={classes.paper}>
+                      <div className="m-2 plogo">
+                        <img src={LOGO6} alt="Pacific logo" />
+                      </div>
+                    </Paper>
+                  </Grid>
+                </Grid>
               </Card.Footer>
             </Card>
           </Tilt>

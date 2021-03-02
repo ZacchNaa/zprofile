@@ -20,32 +20,12 @@
   font-weight: 800;
 }
 
-/* .logodiv {
-  display: flex;
-} */
-.logodiv {
-  display: grid;
-  grid-template-columns: 2fr 2fr 2fr;
-}
-
-.plogo img {
-  height: 12vh;
+.plogo > img {
+  width: 100%;
+  height: auto;
 }
 
 .sub {
   font-size: 27px;
   letter-spacing: 2px;
-}
-
-/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
-
-@media screen and (max-width: 620px) {
-  .logodiv {
-    grid-template-columns: 4fr;
-  }
-}
-@media screen and (max-width: 700px) {
-  .logodiv {
-    grid-template-columns: 2fr 2fr;
-  }
 }

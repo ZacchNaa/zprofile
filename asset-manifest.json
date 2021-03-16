@@ -1,22 +1,21 @@
 {
   "files": {
-    "main.css": "/zprofile/static/css/main.d2cf2f42.chunk.css",
-    "main.js": "/zprofile/static/js/main.72eae3b7.chunk.js",
-    "main.js.map": "/zprofile/static/js/main.72eae3b7.chunk.js.map",
+    "main.css": "/zprofile/static/css/main.55afce9d.chunk.css",
+    "main.js": "/zprofile/static/js/main.6cfc34e6.chunk.js",
+    "main.js.map": "/zprofile/static/js/main.6cfc34e6.chunk.js.map",
     "runtime-main.js": "/zprofile/static/js/runtime-main.7a05a98f.js",
     "runtime-main.js.map": "/zprofile/static/js/runtime-main.7a05a98f.js.map",
-    "static/js/2.66733e83.chunk.js": "/zprofile/static/js/2.66733e83.chunk.js",
-    "static/js/2.66733e83.chunk.js.map": "/zprofile/static/js/2.66733e83.chunk.js.map",
+    "static/js/2.38ccb67c.chunk.js": "/zprofile/static/js/2.38ccb67c.chunk.js",
+    "static/js/2.38ccb67c.chunk.js.map": "/zprofile/static/js/2.38ccb67c.chunk.js.map",
     "index.html": "/zprofile/index.html",
-    "precache-manifest.579b9f40cab7f3e30bbd67e9b859595f.js": "/zprofile/precache-manifest.579b9f40cab7f3e30bbd67e9b859595f.js",
+    "precache-manifest.361e221e692e0d1dd7fbf71ba6045da0.js": "/zprofile/precache-manifest.361e221e692e0d1dd7fbf71ba6045da0.js",
     "service-worker.js": "/zprofile/service-worker.js",
-    "static/css/main.d2cf2f42.chunk.css.map": "/zprofile/static/css/main.d2cf2f42.chunk.css.map",
-    "static/js/2.66733e83.chunk.js.LICENSE.txt": "/zprofile/static/js/2.66733e83.chunk.js.LICENSE.txt",
+    "static/css/main.55afce9d.chunk.css.map": "/zprofile/static/css/main.55afce9d.chunk.css.map",
+    "static/js/2.38ccb67c.chunk.js.LICENSE.txt": "/zprofile/static/js/2.38ccb67c.chunk.js.LICENSE.txt",
     "static/media/Artboard1.webp": "/zprofile/static/media/Artboard1.bc4f0a0a.webp",
     "static/media/Artboard2.webp": "/zprofile/static/media/Artboard2.e0c0b981.webp",
     "static/media/Artboard3.webp": "/zprofile/static/media/Artboard3.de124460.webp",
     "static/media/contact-form.styles.css": "/zprofile/static/media/background.e95d0563.webp",
-    "static/media/bg3.webp": "/zprofile/static/media/bg3.fde6bd37.webp",
     "static/media/bg9.webp": "/zprofile/static/media/bg9.2d720171.webp",
     "static/media/bookcover1.webp": "/zprofile/static/media/bookcover1.a1bc3b48.webp",
     "static/media/bootstrap-4.svg": "/zprofile/static/media/bootstrap-4.ffded238.svg",
@@ -56,8 +55,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.7a05a98f.js",
-    "static/js/2.66733e83.chunk.js",
-    "static/css/main.d2cf2f42.chunk.css",
-    "static/js/main.72eae3b7.chunk.js"
+    "static/js/2.38ccb67c.chunk.js",
+    "static/css/main.55afce9d.chunk.css",
+    "static/js/main.6cfc34e6.chunk.js"
   ]
 }

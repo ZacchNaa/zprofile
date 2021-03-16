@@ -29,12 +29,7 @@ const App = () => {
       />
 
       <div>
-        <Parallax
-          blur={{ min: -30, max: 30 }}
-          bgImage={require("./assets/img/background/bg3.webp")}
-          bgImageAlt=""
-          strength={900}
-        >
+        <Parallax blur={{ min: -30, max: 30 }} bgImageAlt="" strength={900}>
           <div>
             <Container className="container-box rounded">
               <Fade duration={500}>

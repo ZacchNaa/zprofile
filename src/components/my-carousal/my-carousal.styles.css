@@ -3,8 +3,9 @@
   object-fit: cover;
 }
 
-/* image responsive */
-/* .image-className {
-  width: 100%;
-  height: auto;
-} */
+img {
+  -webkit-animation: thing 20s;
+  -o-animation: thing 20s;
+  animation: thing 20s;
+}
+

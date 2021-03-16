@@ -8,6 +8,7 @@ import Image from "react-bootstrap/Image";
 import Button from "react-bootstrap/Button";
 import Fade from "react-reveal/Fade";
 import Zoom from "react-reveal/Zoom";
+import AnimateAvatar from "./AnimateAvatar";
 
 const About = () => {
   return (
@@ -23,36 +24,41 @@ const About = () => {
             <Col xs={12} md={6}>
               <Row className="justify-content-center mb-2 mr-2 ">
                 <Fade top cascade>
-                  <Image
-                    className="profile justify-content-end"
-                    alt="profile"
-                    src={Profile}
-                    roundedCircle
-                    fluid
-                  />
+                  <AnimateAvatar rotation={20} timing={200}>
+                    <Image
+                      className="profile justify-content-end"
+                      alt="profile"
+                      src={Profile}
+                      roundedCircle
+                      fluid
+                    />
+                  </AnimateAvatar>
                 </Fade>
               </Row>
             </Col>
             <Col xs={12} md={6}>
               <Row className=" align-items-start p-2 my-details rounded">
                 So! <strong>&nbsp;Who am I?</strong>
+                {/* <AnimateAvatar rotation={20} timing={200}> */}
                 <br />A programmer and a Graphic Designer. I am a Full Stack Web
                 Developer with React.js, Redux, Express.js, Node.js, mongoDB and
                 MySQL.
                 <br />
-                I hold a Bachelor of Science in Computer Science
                 <br />
-                My motivation to work is driven by results. And I pay keen
-                attention to detail. I enjoy whatever I do with fun.
+                I hold a Bachelor of Science in Computer Science My motivation
+                to work is driven by results. And I pay keen attention to
+                detail. I enjoy whatever I do with fun.
                 <br />
                 <br />
                 At every point in time I enjoy exploring whatever is of
                 interest. I just love to learn, because it is fun doing!!!
+                {/* <AnimateText /> */}
+                {/* </AnimateAvatar> */}
                 <br /> <br />
                 <Col className="d-flex justify-content-center flex-wrap">
                   <div>
                     <a href="#contact">
-                      <Button className="m-2" variant="outline-primary">
+                      <Button className="m-2" variant="outline-info">
                         Get in touch
                       </Button>
                     </a>
@@ -74,7 +80,7 @@ const About = () => {
                       target="_blank"
                       rel="noopener noreferrer"
                     >
-                      <Button className="m-2" variant="outline-dark">
+                      <Button className="m-2" variant="outline-info">
                         GitHub
                       </Button>
                     </a>
@@ -85,7 +91,7 @@ const About = () => {
                       target="_blank"
                       rel="noopener noreferrer"
                     >
-                      <Button className="m-2" variant="outline-info">
+                      <Button className="m-2" variant="outline-success">
                         LinkedIn
                       </Button>
                     </a>
